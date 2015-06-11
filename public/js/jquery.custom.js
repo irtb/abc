@@ -276,15 +276,15 @@ jQuery(document).ready(function() {
 /*	LOGO
 /*-----------------------------------------------------------------------------------*/
 
-jQuery(document).ready(function(){
-			jQuery('.logo-link').wrapInner('<span class="hover"></span>').css('textIndent','0').each(function () {
-				jQuery('span.hover').css('opacity', 0).hover(function () {
-					jQuery(this).stop().fadeTo(600, 1);
-				}, function () {
-					jQuery(this).stop().fadeTo(600, 0);
-				});
-			});
-});
+// jQuery(document).ready(function(){
+// 			jQuery('.logo-link').wrapInner('<span class="hover"></span>').css('textIndent','0').each(function () {
+// 				jQuery('span.hover').css('opacity', 0).hover(function () {
+// 					jQuery(this).stop().fadeTo(600, 1);
+// 				}, function () {
+// 					jQuery(this).stop().fadeTo(600, 0);
+// 				});
+// 			});
+// });
 
 
 

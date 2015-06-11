@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-11 17:37:12
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-06-11 17:59:37
          compiled from "/opt/www/project/abc/template/left.html" */ ?>
 <?php /*%%SmartyHeaderCode:1157881615557956c875a0f9-37669456%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1c0a4db21adcf27354d2926ec252a1200db10219' => 
     array (
       0 => '/opt/www/project/abc/template/left.html',
-      1 => 1434013808,
+      1 => 1434016609,
       2 => 'file',
     ),
   ),
@@ -15,17 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21-dev',
   'unifunc' => 'content_557956c8766f27_98191654',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_557956c8766f27_98191654')) {function content_557956c8766f27_98191654($_smarty_tpl) {?><!--BEGIN #left-->
 <div id="sidebar" class="aside">
-    <!-- BEGIN #logo -->
     <div id="logo">
-        <a class="logo-link" href="/" title="{$Think.config.CFG_WEBNAME}" style="text-indent: 0px; ">
-        </a>
-        <!-- END #logo -->
+        <a class="logo-link" href="/" title="{$Think.config.CFG_WEBNAME}" style="text-indent: 0px; "></a>
     </div>
     <div id="search-4" class="widget widget_search clearfix">
         <form method="post" id="searchform" action="__APP__/Index/search">
@@ -43,7 +40,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <?php echo '</script'; ?>
 >
         <br/>
-        <img src="__IMG__/wechat.jpg" alt="微信账号" width="260px" height="260px"
+        <img src="/public/images/wechat.jpg" alt="微信账号" width="260px" height="260px"
         />
     </div>
     <div id="tz_tab_widget-4" class="widget tz_tab_widget clearfix">
@@ -86,7 +83,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <volist name='commentlist' id='data'>
                             <li class="clearfix">
                                 <span class="recentcommentsavatar">
-                                    <img alt='RUI个人博客' src='__IMG__/logo_03.jpg' class='avatar' height='32'
+                                    <img alt='RUI个人博客' src='/public/images/logo_03.jpg' class='avatar' height='32'
                                     width='32' />
                                 </span>
                                 <a class="tabcommentlink" href="{$data.url}" title="评论文章《{$data.title}》">

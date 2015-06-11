@@ -340,13 +340,11 @@ p.welcome-message {
 	width: 190px;
 	height: 190px;
 	background: url(../images/logo.png);
-	margin-left: 35px
+	margin-left: 35px;
+	transition: all 1.2s;
 }
 
-.logo-link span.hover {
-	display: block;
-	width: 190px;
-	height: 190px;
+.logo-link:hover {
 	background: url(../images/logo2.png);
 }
 

@@ -1,10 +1,7 @@
 <!--BEGIN #left-->
 <div id="sidebar" class="aside">
-    <!-- BEGIN #logo -->
     <div id="logo">
-        <a class="logo-link" href="/" title="{$Think.config.CFG_WEBNAME}" style="text-indent: 0px; ">
-        </a>
-        <!-- END #logo -->
+        <a class="logo-link" href="/" title="{$Think.config.CFG_WEBNAME}" style="text-indent: 0px; "></a>
     </div>
     <div id="search-4" class="widget widget_search clearfix">
         <form method="post" id="searchform" action="__APP__/Index/search">
@@ -20,7 +17,7 @@
         <script type="text/javascript" src="http://ext.weather.com.cn/54349.js">
         </script>
         <br/>
-        <img src="__IMG__/wechat.jpg" alt="微信账号" width="260px" height="260px"
+        <img src="/public/images/wechat.jpg" alt="微信账号" width="260px" height="260px"
         />
     </div>
     <div id="tz_tab_widget-4" class="widget tz_tab_widget clearfix">
@@ -63,7 +60,7 @@
                         <volist name='commentlist' id='data'>
                             <li class="clearfix">
                                 <span class="recentcommentsavatar">
-                                    <img alt='RUI个人博客' src='__IMG__/logo_03.jpg' class='avatar' height='32'
+                                    <img alt='RUI个人博客' src='/public/images/logo_03.jpg' class='avatar' height='32'
                                     width='32' />
                                 </span>
                                 <a class="tabcommentlink" href="{$data.url}" title="评论文章《{$data.title}》">
